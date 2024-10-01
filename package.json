@@ -2,6 +2,10 @@
 	"name": "siti_dashboard_socketserver",
 	"version": "1.0.0",
 	"description": "Quality Socket Server",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index"
+	},
 	"type": "module",
 	"dependencies": {
 		"cors": "^2.8.5",
